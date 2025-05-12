@@ -1,4 +1,18 @@
-API Endpoints
+1.CREATE ENV
+python -m venv venv
+source venv/bin/activate
+pip install django djangorestframework
+
+
+2.RUN MIGRATION
+python manage.py makemigrations
+python manage.py migrate
+
+
+3. RUN SERVER
+ python manage.py runserver
+
+4.API Endpoints
 
 1. POST
   URL --- http://localhost:8000/api/users
